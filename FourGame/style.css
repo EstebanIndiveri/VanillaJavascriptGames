@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://www.logaster.com.es/blog/wp-content/uploads/2019/01/4-min.jpg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hidden{
+    display:none;
+}
+.message{
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 1px 1px 1px;
+}
+p{
+    font-size: 1.4em;
+    text-align: center;
+    color: cornflowerblue;
+    
+}
+
+.puntaje{
+    font-size: 1.4em;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+input{
+    text-align: center;
+    align-items: center;
+    margin-left: 43%;
+    width: 15%;
+    color: cornflowerblue;
+    font-size: 1.4em;
+}
+button{
+    font-size: 18px;
+    margin-left: 47.5%;
+    margin-top: 3%;
+    border:none;
+    background:blueviolet;
+    color:white;
+    border-radius:20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    transform: scale(1);
+}
+button:hover{
+    background-color: rgb(109, 32, 182);
+    transform: scale(1.2);
+    padding: 10px;
+}
